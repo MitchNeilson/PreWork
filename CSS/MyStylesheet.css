@@ -1,0 +1,95 @@
+html {
+    background: url('back.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#info {
+   background-color: rgb(255, 255, 255);
+   padding: 0px;
+   margin-left: -0.75%;
+   margin-right: -0.6%;
+   margin-bottom: -0.5%;
+   margin-top: 25%;
+   height: auto;
+   float: left;
+   width: 101.15%;
+   position: relative;
+   z-index: 4;
+   height: 430px;
+}
+
+.block {
+    float: left;
+    padding:10px;
+    width: 30%;
+    text-align: right;
+}
+.block p {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.pagelink {
+    margin-top: 34.5%;
+}
+
+#heading {
+    margin-top: 00%;
+    font-family: garamond;
+    z-index: 5;
+}
+
+#main-header {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+#intro-paragraph {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.infoblock {
+    top: 2%;
+    left: 0.5%;
+    width:99%;
+    height:97%;
+    background-color: white;
+    position: absolute;
+    white-space: nowrap;
+    font-family: Helvetica;
+    opacity: 0;
+    z-index:0;
+}
+
+.infoblock #infoaboutme{
+    z-index: 0;
+}
+
+.infoblock #hobbies{
+    z-index: 0;
+}
+
+
+.infoblock h1 {
+    text-align: center;
+}
+
+.button {
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(0, 128, 111);
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
